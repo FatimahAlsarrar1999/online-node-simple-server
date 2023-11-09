@@ -1,19 +1,19 @@
 {
-  "name": "simple-server",
+  "name": "node-simple-server",
   "version": "1.0.0",
-  "type": "module",
-  "description": "This repository contains a basic Node.js server application with various features. The server application allows you to handle different HTTP requests and perform specific actions.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "fatimah ",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.22"
   },
   "dependencies": {
-    "@types/nodemon": "^1.19.5"
+    "uuid": "^9.0.1"
   }
 }
